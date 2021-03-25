@@ -1,11 +1,11 @@
-package page;
+package tests.tests;
 
 import org.junit.jupiter.api.Test;
-import tests.FormTestsPageObjects;
+import tests.pages.FormTestsPage;
 
 public class FormTests {
 
-    FormTestsPageObjects formTestsPageObjects = new FormTestsPageObjects();
+    FormTestsPage formTestsPageObjects = new FormTestsPage();
 
     @Test
     void successfulFormstTest() {
@@ -15,5 +15,4 @@ public class FormTests {
     }
 
 
-    ;
 }

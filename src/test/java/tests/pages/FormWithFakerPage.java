@@ -1,4 +1,4 @@
-package tests;
+package tests.pages;
 
 
 import static com.codeborne.selenide.Condition.text;
@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 
-public class FormTestsWithJFakerObject extends DataTest {
+public class FormWithFakerPage extends TestData {
 
     public void openPage() {
         open("https://demoqa.com/automation-practice-form");

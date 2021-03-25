@@ -1,11 +1,11 @@
-package page;
+package tests.tests;
 
 import org.junit.jupiter.api.Test;
-import tests.FormTestsWithJFakerObject;
+import tests.pages.FormWithFakerPage;
 
-public class FormTestsWithFaker {
+public class FormWithFakerTests {
 
-    FormTestsWithJFakerObject formTestsWithJFakerObject = new FormTestsWithJFakerObject();
+    FormWithFakerPage formTestsWithJFakerObject = new FormWithFakerPage();
 
     @Test
     void successfulFormstTest() {

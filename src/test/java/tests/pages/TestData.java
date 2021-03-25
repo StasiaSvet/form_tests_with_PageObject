@@ -1,8 +1,8 @@
-package tests;
+package tests.pages;
 
 import com.github.javafaker.Faker;
 
-public class DataTest {
+public class TestData {
     Faker faker = new Faker();
 
     String firstName = faker.name().firstName(),
