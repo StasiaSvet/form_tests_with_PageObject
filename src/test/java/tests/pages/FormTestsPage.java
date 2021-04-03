@@ -40,8 +40,4 @@ public class FormTestsPage {
                 text("Civics, History"), text("floppa.png"), text("At 155 Country Lane, Cottington, Cottingshire County, UK"),
                 text("Haryana Panipat"));
     }
-
-
-
-
 }
