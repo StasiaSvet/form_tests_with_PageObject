@@ -75,5 +75,4 @@ public class RandomUtils {
         long timestamp = new Timestamp(System.currentTimeMillis()).getTime();
         return getRandomString(5) + timestamp + emailDomain;
     }
-
 }

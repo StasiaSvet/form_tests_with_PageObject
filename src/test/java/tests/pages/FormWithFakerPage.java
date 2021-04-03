@@ -38,8 +38,4 @@ public class FormWithFakerPage extends TestData {
                 text(mobile), text(month), text(year), text("12"), text(interest1), text(interest2), text(hobby1), text(hobby2),
                 text(image), text(address), text(state), text(city));
     }
-
-
-
 }
-

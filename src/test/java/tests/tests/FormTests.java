@@ -13,6 +13,4 @@ public class FormTests {
         formTestsPageObjects.fillForm();
         formTestsPageObjects.checkData();
     }
-
-
 }
